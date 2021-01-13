@@ -1,0 +1,47 @@
+body {
+    font-family: 'Goldman', cursive;
+}
+
+header {
+    text-align: center;
+}
+
+.stopwatch {
+    width: 250px;
+    margin: auto;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.stopwatch:before {
+    content:'';
+    display:table;
+    clear:both; 
+    height: 0;
+}
+
+#time-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px auto 10px auto;
+}
+
+#time {
+    font-size: 1.75em;
+}
+
+button {
+    background-color: rgb(214, 57, 78);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 10px;
+    border: none;
+}
+
